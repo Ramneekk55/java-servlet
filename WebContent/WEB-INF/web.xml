@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>SerletPrac2</display-name>
+  <servlet>
+ <servlet-name>ramneek5</servlet-name>
+    <servlet-class>Login.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ramneek5</servlet-name>
+    <url-pattern>/hey</url-pattern>
+  </servlet-mapping>
+  
+ 
+ <servlet>
+ <servlet-name>Ramneek2</servlet-name>
+    <servlet-class>Login.DisplayServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Ramneek2</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+ <servlet-name>Ramneek3</servlet-name>
+    <servlet-class>Login.signup</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Ramneek3</servlet-name>
+    <url-pattern>/meek</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ <servlet-name>Ramneek4</servlet-name>
+    <servlet-class>Login.SignupDisplay</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Ramneek4</servlet-name>
+    <url-pattern>/meek1</url-pattern>
+  </servlet-mapping>
+<welcome-file-list>
+<welcome-file>login.html</welcome-file>
+<welcome-file>login1.html</welcome-file>
+<welcome-file>login2.html</welcome-file>
+<welcome-file>signup.html</welcome-file>
+<welcome-file>signup1.html</welcome-file>
+</welcome-file-list>
+</web-app>
